@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Abroad Process Flowchart</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+    <div class="program-card">
+        <img src="https://via.placeholder.com/300x200" alt="Program Image">
+        <h3>Our Process</h3>
+        <p>Initial Consultation:
+            Students meet with a consultant to discuss their study abroad goals, interests, and preferences.
+            Program Research:
+            Together, we research study abroad programs that align with the student's academic and personal objectives, considering factors such as location, language, and curriculum.
+            Application Process:
+            Our team assists students in completing study abroad applications, ensuring they meet all requirements and deadlines.
+            Visa and Travel Preparation:
+            We provide guidance and support throughout the visa application process, including document preparation and interview preparation, as well as assistance with travel logistics.
+            Pre-Departure Orientation:
+            Students attend pre-departure orientation sessions to prepare for their study abroad experience, covering topics such as cultural adaptation, academic expectations, and safety abroad.
+        </p>
+    </div>
+
+    <div class="mermaid">
+        graph TD
+            A[Initial Consultation] --> B[Program Research]
+            B --> C[Application Process]
+            C --> D[Visa and Travel Preparation]
+            D --> E[Pre-Departure Orientation]
+    </div>
+</body>
+</html>
