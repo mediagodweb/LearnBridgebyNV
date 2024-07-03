@@ -2,148 +2,312 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/628003722a.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Learn Bridge By Nv">
+    <link href="assets/images/favicon/favicon.png" rel="icon">
+    <title>Learn Bridge By Nv</title>
+  
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,700&display=swap"
-        rel="stylesheet">
-    <title>LEARN BRIDGE BY NV</title>
-</head>
-
-<body>
-    <section class="sub-header">
-        <nav><a href="index.html"><img src="learn edge.logo.png" alt=""></a>
-            <div class="nav-links id=" navLinks">
-                
-                <ul>
-                    <li><a class="hideonmobile" href="index.html">HOME</a></li>
-                    <li><a class="hideonmobile" href="about.html">ABOUT</a></li>
-                    <li><a class="hideonmobile" href="services.html">SERVICES</a></li>
-                    <li><a class="hideonmobile" href="contact.html">CONTACT</a></li>
-                </ul>
-            </div><i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-    </section>
-
-    <!-- aboust us content -->
-    <section class="about-us">
-        <div class="aboutusrow">
-            <!-- <div class="about-col"> -->
-                <h1>BTech CREDIT TRANSFER</h1>
-                <span>Transferring credits can be a daunting process, but at Learn Bridge by NY, we're here to simplify it for you. Whether you're transitioning from one institution to another or seeking to transfer credits from previous coursework, our experienced team of consultants is here to guide you every step of the way. <br> Here at Learn Bridge, we help you understand the engineering credit transfer policies and procedures, evaluate your existing credits, and ensure that you receive the maximum credit for your prior coursework. <br> With our personalized approach and commitment to your academic success, we'll help you navigate through the credit transfer process with confidence and ease. Join Learn Bridge by NV and let us help you make the most of your academic journey.
-                </span>
-            <!-- </div> -->
-            
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="assets/css/libraries.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <div class="preloader">
+        <div class="sk-cube-grid">
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
+          <span class="sk-cube"></span>
         </div>
-        <div class="whatweoffer">
-            <h1>WHAT WE OFFER</h1>
-            <p>
-                <ul>
-                    <li><strong>Personalized Consultation:</strong>Our expert consultants provide personalized guidance tailored to each student's unique strengths, interests, and goals.</li>
-                    <li><strong>Credit Evaluation:
-                    </strong> We assess your existing credits and help you understand the transfer policies and procedures of your target institutions.</li>
-                    <li><strong>Maximized Credit Transfer:
-                    </strong> We ensure that you receive the maximum credit for your prior coursework, helping you save time and money on your educational path.</li>
-                    <li><strong>Transfer Planning:</strong> We assist you in creating a transfer plan that aligns with your academic goals and ensures a seamless transition to your new institution.</li>
-                </ul>
-            </p>
-            
-
+      </div><!-- /.preloader -->
+  
+      <!-- =========================
+          Header 
+      =========================== -->
+      <header class="header header-light header-light-has-topbar">
+        <div class="d-none d-md-block">
+          <div class="topbar topbar-dark">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <ul class="topbar__contact d-flex flex-wrap list-unstyled mb-0">
+                      <li>
+                        <i class="icon-phone"></i><a href="tel:+5565454117">+91 812 924 6099</a>
+                      </li>
+                      <li>
+                        <i class="icon-mail"></i><a href="mailto:info@learnbridgebynv.com">info@learnbridgebynv.com</a>
+                      </li>
+                      <li>
+                        <i class="icon-clock"></i><a href="contact-us.html">Hours: Mon-Fri: 8am – 7pm</a>
+                      </li>
+                    </ul>
+                    <div class="d-flex">
+                      <ul class="social-icons list-unstyled mb-0 mr-30">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      </ul>
+                      <div class="dropdown dropdown__lang">
+                        <button class="dropdown-toggle" id="langDrobdown" data-toggle="dropdown" aria-expanded="false">
+                          <img src="assets/images/flags/india.png" alt="in"><span>India</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="langDrobdown">
+                          <a class="dropdown-item" href="#">
+                            <img src="assets/images/flags/india.png" alt="in"><span>India</span>
+                          </a>
+                          <!-- <a class="dropdown-item" href="#">
+                            <img src="assets/images/flags/fr.png" alt="fr"><span>France</span>
+                          </a>
+                          <a class="dropdown-item" href="#">
+                            <img src="assets/images/flags/gr.png" alt="gr"><span>germany</span>
+                          </a> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.col-12 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </div><!-- /.topbar -->
         </div>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-            <div class="contact">
-                <h3>About founder</h3>
-                <img src="learn edge.logo.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, consectetur iure nostrum sint maiores sit quidem ducimus a repellat aliquid perspiciatis provident quibusdam illo dolor porro culpa, vero dolorum! Omnis?</p>
-                
+        <nav class="navbar navbar-expand-lg sticky-navbar">
+          <div class="container">
+  
+            <a class="navbar-brand" href="index.html">
+              <!-- <img src="assets/images/logo/learn edge.logo.png" width="175" class="logo-dark" alt="logo"> -->
+              <img src="assets/images/logo/learn edge.logo.png" width="175" class="logo-dark" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button">
+              <span class="menu-lines"><span></span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavigation">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav__item  has-dropdown">
+                  <a href="index.html"   class="  nav__item-link">Home</a>
+                </li> 
+                <li class="nav__item">
+                  <a href="about-us.html" class="nav__item-link">About</a>
+                </li>
+                <li class="nav__item">
+                  <a href="services.html"  class=" nav__item-link  active">Services</a>
+                </li>
+                <li class="nav__item">
+                  <a href="contact-us.html" class="nav__item-link">Contacts</a>
+                </li><!-- /.nav-item -->
+              </ul><!-- /.navbar-nav -->
+            </div><!-- /.navbar-collapse -->
+            
+          </div><!-- /.container -->
+        </nav><!-- /.navabr -->
+      </header><!-- /.Header -->
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section class="page-title page-title-layout15 mt-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12 col-sm-12 col-md-12 col-lg-7">
+            <nav>
+              <ol class="breadcrumb mb-20">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="services.html">Services</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Engineering Credit Transfer</li>
+              </ol>
+            </nav>
+            <h1 class="pagetitle__heading">Engineering CREDIT TRANSFER</h1>
+            <p class="pagetitle__desc">Transferring credits can be a daunting process, but at Learn Bridge by NY, we're here to simplify it for you. Whether you're transitioning from one institution to another or seeking to transfer credits from previous coursework, our experienced team of consultants is here to guide you every step of the way.
+                Here at Learn Bridge, we help you understand the engineering credit transfer policies and procedures, evaluate your existing credits, and ensure that you receive the maximum credit for your prior coursework.
+                With our personalized approach and commitment to your academic success, we'll help you navigate through the credit transfer process with confidence and ease. Join Learn Bridge by NV and let us help you make the most of your academic journey.</p>
+          </div><!-- /.col-xl-8 -->
+           
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+ 
+    <!-- ======================
+     Work Process 
+    ========================= -->
+    <section class="work-process pb-100">
+      <div class="bg-img"><img src="assets/images/backgrounds/14.jpg" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <div class="sticky-top">
+              <div class="tab-content mb-50">
+                <div class="tab-pane fade show active" id="tab1">
+                  <img src="assets/images/services/serv2.jpg" class="rounded" alt="banner">
+                </div>
+                <div class="tab-pane fade" id="tab2">
+                  <img src="assets/images/work-process/2.jpg" class="rounded" alt="banner">
+                </div>
+                <div class="tab-pane fade" id="tab3">
+                  <img src="assets/images/work-process/3.jpg" class="rounded" alt="banner">
+                </div>
+                <div class="tab-pane fade" id="tab4">
+                  <img src="assets/images/work-process/4.jpg" class="rounded" alt="banner">
+                </div>
+              </div><!-- /.tab-content -->
+              <p class="color-white font-weight-bold fz-16 mb-30">SmartData been helping organizations throughout the
+                World to
+                manage their IT with our unique approach to technology management and consultancy solutions. </p>
+              <a href="contact-us.html" class="btn btn__white btn__white-style2 btn__icon mb-30">
+                <span>Contact Us</span>
+                <i class="icon-arrow-right"></i>
+              </a>
             </div>
-            <div class="registration">
-                <h3>Register</h3>
-                <form id="registrationForm" action="#" method="post" >
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <!-- <input type="email" name="email" placeholder="Your Email" required> -->
-                    <input type="tel" name="phone" placeholder="Your Phone" required>
-                    <button type="submit">Register</button>
-                </form>
-                <div id="popup" class="popup">Registered!</div>
+          </div><!-- /.col-lg-5 -->
+          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-1">
+            <div class="heading mb-80">
+              <h2 class="heading__subtitle">WHAT WE OFFER</h2>
+              <h3 class="heading__title color-white">Deliver Only Exceptional Quality, And Improve! </h3>
             </div>
-            <!-- <div class="quick-links">
-                <h3>Quick Link</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Syllabus</a></li>
-                </ul>
-            </div> -->
-            <div class="contact">
-                <h3>Contact</h3>
-                <p>First floor Amrith Era- 135(1) Behind hotel horizon thycaud
-                    Trivandrum, Kerela, INDIA
-                    pin- 695014</p>
-                <p><i class="fa-solid fa-phone"></i><a href="tel:8129246099">8129246099</a></p>
-                <p><i class="fa-solid fa-phone"></i><a href="tel:8129446099">8129446099</a></p>
-                <p><i class="fa-regular fa-envelope"></i><a href="learnsbridgebynv@gmail.com">Email</a></p>
-                <p><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/learnbridge_by_nv/?igsh=NXFzY29lY3oxZjBs">Instagram</a></p>
-            </div>
-            
-            
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2022 MEDIAGOD, All Rights Reserved</p>
-            <p><a href="www.learnbridgebynv.com">learnbridge.com</a></p>
-        </div>
-    </footer>
+            <nav class="nav nav-tabs">
+              <!-- process Item #1 -->
+              <a class="process-item d-flex flex-wrap active" data-toggle="tab" href="#tab1">
+                <div class="process-item__icon">
+                  <i class="icon-cyberspace"></i>
+                </div><!-- /.process-item__icon -->
+                <div class="process-item__content">
+                  <h4 class="process-item__title">Personalized Consultation</h4>
+                  <p class="process-item__desc">Our expert consultants provide personalized guidance tailored to each student's unique strengths, interests, and goals.</p>
+                </div>
+              </a><!-- /.process-item -->
+              <!-- process Item #2 -->
+              <a class="process-item d-flex flex-wrap" data-toggle="tab" href="#tab2">
+                <div class="process-item__icon">
+                  <i class="icon-algorithm"></i>
+                </div><!-- /.process-item__icon -->
+                <div class="process-item__content">
+                  <h4 class="process-item__title">Credit Evaluation</h4>
+                  <p class="process-item__desc">We assess your existing credits and help you understand the transfer policies and procedures of your target institutions.</p>
+                </div>
+              </a><!-- /.process-item -->
+              <!-- process Item #3 -->
+              <a class="process-item d-flex flex-wrap" data-toggle="tab" href="#tab3">
+                <div class="process-item__icon">
+                  <i class="icon-programming3"></i>
+                </div><!-- /.process-item__icon -->
+                <div class="process-item__content">
+                  <h4 class="process-item__title">Maximized Credit Transfer</h4>
+                  <p class="process-item__desc">We ensure that you receive the maximum credit for your prior coursework, helping you save time and money on your educational path.
+                  </p>
+                </div>
+              </a><!-- /.process-item -->
+              <!-- process Item #4 -->
+              <a class="process-item d-flex flex-wrap" data-toggle="tab" href="#tab4">
+                <div class="process-item__icon">
+                  <i class="icon-browser"></i>
+                </div><!-- /.process-item__icon -->
+                <div class="process-item__content">
+                  <h4 class="process-item__title">Transfer Planning</h4>
+                  <p class="process-item__desc">We assist you in creating a transfer plan that aligns with your academic goals and ensures a seamless transition to your new institution.
+                </p>
+                </div>
+              </a><!-- /.process-item -->
+            </nav>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Work Process -->
+ 
 
-    <!-- javascript for toggle menu -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
+    <!-- ========================
+      Footer
+    ========================== -->
+    <footer class="footer mb-0">
+        <div class="footer-primary">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-3 footer-widget footer-widget-about">
+                <div class="footer-widget__content">
+                  <img src="assets/images/logo/learn edge.logo.png" alt="logo" class="mb-30">
+                </div><!-- /.footer-widget__content -->
+              </div><!-- /.col-xl-3 -->
+              <div class="col-sm-6 col-md-4 col-lg-3 footer-widget footer-widget-nav">
+                <h6 class="footer-widget__title">Company</h6>
+                <div class="footer-widget__content">
+                  <nav>
+                    <ul class="list-unstyled">
+                      <li><a href="about-us.html">About Us</a></li>
+                      <li><a href="contact-us.html">Contacts</a></li>
+                     
+                    </ul>
+                  </nav>
+                </div><!-- /.footer-widget__content -->
+              </div><!-- /.col-lg-2 -->
+              <div class="col-sm-6 col-md-4 col-lg-3 footer-widget footer-widget-nav">
+                <h6 class="footer-widget__title">Services</h6>
+                <div class="footer-widget__content">
+                  <!-- <nav>
+                    <ul class="list-unstyled">
+                      <li><a href="#">IT Management</a></li>
+                      <li><a href="#">Cyber Security</a></li>
+                      <li><a href="#">Cloud Computing</a></li>
+                       
+                    </ul>
+                  </nav> -->
+                </div><!-- /.footer-widget__content -->
+              </div><!-- /.col-lg-2 -->
+              <div class="col-sm-6 col-md-4 col-lg-3 footer-widget footer-widget-nav">
+                <h6 class="footer-widget__title">Resources</h6>
+                <div class="footer-widget__content">
+                  <!-- <nav>
+                    <ul class="list-unstyled">
+                      <li><a href="pricing.html">Pricing and plans</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="faqs.html">Help & FAQ</a></li>
+                      <li><a href="contact-us.html">Contact Us</a></li>
+                      <li><a href="#">Site map</a></li>
+                    </ul>
+                  </nav> -->
+                </div><!-- /.footer-widget__content -->
+              </div><!-- /.col-lg-2 -->
+               <!-- /.col-lg-3 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.footer-primary -->
+        <div class="footer-secondary">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-12 col-md-5 col-lg-5">
+                <div class="footer__copyrights">
+                  <span class="fz-14">&copy; 2020 Smart Data, All Rights Reserved. With Love by</span>
+                  <a class="fz-14 color-primary" href="mediagod.in">Mediagod.in</a>
+                </div>
+              </div><!-- /.col-lg-6 -->
+              <div class="col-sm-12 col-md-2 col-lg-2 text-center">
+                <button id="scrollTopBtn" class="my-2"><i class="icon-arrow-up-2"></i></button>
+              </div><!-- /.col-lg-2 -->
+              <div class="col-sm-12 col-md-5 col-lg-5 d-flex flex-wrap justify-content-end align-items-center">
+                <ul class="social-icons list-unstyled mb-0 mr-30">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul><!-- /.social-icons -->
+                 
+              </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.footer-secondary -->
+      </footer><!-- /.Footer --><!-- /.Footer -->
+ 
+  </div><!-- /.wrapper -->
 
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-
-        function showMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
-    
-    <script>
-        const lenis = new Lenis({
-            duration: 1.2,
-            easing: (t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t)),
-            direction: "vertical",
-            gestureDirection: "vertical",
-            smooth: true,
-            smoothTouch: false,
-            touchMultiplier: 2,
-        });
-
-        function raf(time) {
-            lenis.raf(time);
-            requestAnimationFrame(raf);
-        }
-
-        requestAnimationFrame(raf);
-
-
-    </script>
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
