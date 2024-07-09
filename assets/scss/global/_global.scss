@@ -62,7 +62,7 @@ body {
 }
 
 ::selection {
-    background-color: $color-primary;
+    background-color: #214335;
     color: $color-white;
 }
 
@@ -134,3 +134,9 @@ select {
         overflow-x: hidden;
     }
 }
+
+#slider-background {
+    background-color: #214335 ;
+  }
+  
+  
